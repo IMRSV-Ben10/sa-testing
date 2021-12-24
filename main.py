@@ -22,9 +22,9 @@ try:
         )
     print("Database created.")
 except psycopg2.DatabaseError:
-    print("Database already exists")
+    print("Database already exists.")
 except Exception as ex:
-    print("Unexpected Error")
+    print("Unexpected Error.")
     print(ex)
     sys.exit(1)
 
